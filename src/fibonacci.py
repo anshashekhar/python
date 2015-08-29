@@ -1,4 +1,4 @@
-__author__ = 'jayant'
+__author__ = 'ansha'
 
 print "calculate fibonacci program"
 
