@@ -15,6 +15,20 @@ print "We can transport", carpool_capacity, "people today."
 print "We have", passengers, "to carpool today."
 print "We need to put about", average_passengers_per_car, "in each car."
 
+lastbutone = 0
+last = 1
+
+print lastbutone
+
+while last < 50:
+    print last
+    #lastbutone, last = last, lastbutone + last
+
+    temp = lastbutone
+    lastbutone = last
+    last = temp + last
+
+
 
 
 
